@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whatisnew_title">版本更新内容</string>
+    <string name="whatisnew_content">咕咕咕</string>
+    <string name="whatisnew_ok">确定</string>
+    <string name="first_glance_title">使用说明</string>
+    <string name="first_glance_content">gugugu</string>
+    <string name="first_glance_ok">OK</string>
+</resources>

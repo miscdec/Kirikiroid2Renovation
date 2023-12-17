@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Kirikiri2Droid</string>
+    <string name="whatisnew_title">What is new</string>
+    <string name="whatisnew_content">Update Content</string>
+    <string name="whatisnew_ok">OK</string>
+    <string name="first_glance_title">使用说明</string>
+    <string name="first_glance_content">gugugu</string>
+    <string name="first_glance_ok">OK</string>
+
+</resources>

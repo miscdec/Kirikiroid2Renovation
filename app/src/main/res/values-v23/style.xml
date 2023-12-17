@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="JetpackSplashTheme" parent="JetpackSplashTheme.Base">
+    </style>
+
+    <style name="JetpackSplashTheme.Base" parent="Theme.SplashScreen">
+        ...
+
+        <item name="windowSplashScreenAnimationDuration">@integer/default_icon_animation_duration</item>
+        <item name="windowSplashScreenBackground">@android:color/background_light</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+
+<!--        <item name="windowSplashScreenBackground">@color/appBackground</item>-->
+
+        <item name="postSplashScreenTheme">@style/SplashActivityTheme</item>
+    </style>
+
+    <style name="SplashActivityTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+
+</resources>
